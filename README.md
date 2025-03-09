@@ -1,4 +1,4 @@
-# Godot v4.4 (GodotSteam, MultiplayerPeer, LuaAPI)
+# Godot v4.4.1 (GodotSteam, MultiplayerPeer, LuaAPI)
 
 This is a fork of https://github.com/godotengine/godot
 
@@ -28,8 +28,8 @@ cp ./bin/libsteam_api.so $HOME/godot/
 ## Using
 
 ```
-cp ./bin/godot.linuxbsd.template_debug.x86_64.mono $HOME/.local/share/godot/export_templates/linux_debug.x86_64
-cp ./bin/godot.linuxbsd.template_release.x86_64.mono $HOME/.local/share/godot/export_templates/linux_release.x86_64
+cp ./bin/godot.linuxbsd.template_debug.x86_64.mono $HOME/.local/share/godot/export_templates/4.4.1.rc.mono/linux_debug.x86_64
+cp ./bin/godot.linuxbsd.template_release.x86_64.mono $HOME/.local/share/godot/export_templates/4.4.1.rc.mono/linux_release.x86_64
 ln -s $HOME/godot/godot.linuxbsd.editor.x86_64.mono $HOME/.local/bin/godot
 dotnet nuget add source $HOME/godot/nuget_packages --name GodotNugetSource
 dotnet restore -f <path/to/project.csproj>
