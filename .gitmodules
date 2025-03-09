@@ -1,0 +1,9 @@
+[submodule "modules/luaAPI"]
+	path = modules/luaAPI
+	url = https://github.com/gugdun/godot_luaAPI
+[submodule "modules/godotsteam"]
+	path = modules/godotsteam
+	url = https://github.com/gugdun/GodotSteam
+[submodule "modules/godotsteam_multiplayer_peer"]
+	path = modules/godotsteam_multiplayer_peer
+	url = https://github.com/gugdun/MultiplayerPeer
